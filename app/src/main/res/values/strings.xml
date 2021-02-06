@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">BusinessApp</string>
+    <string name="invalidID_warning">Invalid business ID</string>
+    <string name="contactDialog_call">Call </string>
+    <string name="contactDialog_add">Add to contacts</string>
+    <string name="contactDialog_cancel">Cancel</string>
+    <string name="dialog_yes">Yes</string>
+    <string name="dialog_no">No</string>
+</resources>
