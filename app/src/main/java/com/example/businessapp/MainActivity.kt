@@ -6,6 +6,7 @@ import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import android.provider.ContactsContract
 import android.util.Log
+import android.view.inputmethod.EditorInfo
 import android.widget.*
 import androidx.appcompat.app.AlertDialog
 import com.android.volley.Request
@@ -43,6 +44,7 @@ class MainActivity : AppCompatActivity() {
         button.setOnClickListener {
             if (editText.text.length == 9) {
                 getInfo(editText.text.toString())
+                editText.onEditorAction(EditorInfo.IME_ACTION_DONE)
             } else {
                 Log.d("DEVOCA", "Invalid businessID")
                 Toast.makeText(this, getString(R.string.invalidID_warning), Toast.LENGTH_SHORT)

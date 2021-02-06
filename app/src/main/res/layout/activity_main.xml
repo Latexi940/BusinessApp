@@ -17,7 +17,6 @@
         android:hint="Business ID here"
         android:inputType="phone"
         android:maxLength="9"
-        android:text="2548333-6 "
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
 
